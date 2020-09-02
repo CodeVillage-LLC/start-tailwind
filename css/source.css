@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  font-family: 'Lato', sans-serif;
+  max-width: 1400px;
+}
+
+@media (min-width: 1280px) {
+  :root {
+    font-size: 24px;
+  }
+}
+
+.banner, .subscribe {
+  background-image: url('../media/bg-masthead.jpg');
+  background-size: cover;
+}
+
+.subscribe {
+  background-position: center;
+}
